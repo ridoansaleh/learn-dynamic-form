@@ -1,0 +1,31 @@
+{
+  "form": {
+    "type": "wizard-form",
+    "fields": [
+      {
+        "label": "Your Name",
+        "name": "name",
+        "type": "text",
+        "placeholder": "Write your name",
+        "defaultValue": "",
+        "validations": ["required", "string"]
+      },
+      {
+        "label": "Your Age",
+        "name": "age",
+        "type": "number",
+        "placeholder": "Write your age",
+        "defaultValue": "",
+        "validations": ["required", "number"]
+      },
+      {
+        "label": "City Address",
+        "name": "city",
+        "type": "select",
+        "placeholder": "",
+        "defaultValue": "",
+        "validations": ["required"]
+      }
+    ]
+  }
+}
